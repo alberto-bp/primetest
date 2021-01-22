@@ -1,0 +1,22 @@
+<p-card>
+
+  <h2>Creación de producto</h2>
+
+  <div class="p-fluid">
+    <div class="p-field p-col-4">
+        <label for="name">Nombre</label>
+        <input id="name" [(ngModel)]="name" type="text" pInputText>
+    </div>
+    <div class="p-field p-col-4">
+        <label for="price">Precio</label>
+        <input id="price" [(ngModel)]="price" type="text" pInputText>
+    </div>
+
+    <div class="p-field p-col-2">
+      <button type="button" class="p-flex" (click)="createProduct()" pButton label="Crear"></button>
+    </div>
+
+  </div>
+</p-card>
+
+
